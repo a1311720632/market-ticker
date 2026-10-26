@@ -1,0 +1,21 @@
+{
+  "symbols": [
+    { "id": "sh000001", "label": "上证", "source": "tencent", "symbol": "sh000001" },
+    { "id": "gold",   "label": "金",   "source": "yahoo", "symbol": "GC=F" },
+    { "id": "btc",    "label": "BTC",  "source": "okx",   "symbol": "BTC-USDT" },
+    { "id": "nasdaq", "label": "纳指", "source": "yahoo", "symbol": "NQ=F" },
+    { "id": "sp500",  "label": "标普", "source": "yahoo", "symbol": "ES=F" }
+  ],
+  "opacity": 0.85,
+  "ghostOpacity": 0.08,
+  "pollIntervalSec": 30,
+  "cnPollIntervalSec": 3,
+  "position": { "x": null, "y": null },
+  "hotkeys": {
+    "interact": "CommandOrControl+`",
+    "boss": "CommandOrControl+Shift+H",
+    "ghost": "CommandOrControl+Shift+G"
+  },
+  "colors": { "up": "#22c55e", "down": "#ef4444" },
+  "disableHardwareAcceleration": false
+}

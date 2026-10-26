@@ -1,0 +1,15 @@
+{
+  "name": "market-ticker",
+  "version": "0.1.0",
+  "description": "打工人悬浮行情条 — 黄金/比特币/美股指数桌面悬浮小组件",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "make-icon": "node scripts/make-icon.cjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^43.4.0"
+  }
+}
